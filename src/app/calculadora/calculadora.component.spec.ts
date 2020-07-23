@@ -23,6 +23,8 @@ describe('CalculadoraComponent', () => {
     expect(component).toBeTruthy();
   });
 
+  //
+
   it('should sum 2 numbers as string', () => {
 
     const res = component.calculate('10+22');
